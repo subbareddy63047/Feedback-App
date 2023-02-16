@@ -1,0 +1,47 @@
+/* Write your CSS code here. */
+.main-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  padding: 30px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 390%;
+  text-align: center;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.love {
+  margin-left: 38%;
+}
+.thankyou {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'roboto';
+  margin-left: 40%;
+}
+.para {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'roboto';
+}
